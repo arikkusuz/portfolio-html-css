@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <title>ariksdev</title>
+</head>
+<body>
+
+    <nav>
+        <div class="left">
+            <a href="/">arikkusuz</a>
+        </div>
+
+        <div class="right">
+            <a href="http://facebook.com/ragingtob" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Facebook</span>
+            </a>
+
+            <a href="https://github.com/arikkusuz" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+        </div>
+    </nav>
+    
+    <main>
+        <section class="head-section">
+            <div class="text">
+                <h2>Hi, I'm arikkusuz ⚙️</h2>
+                <p>You can call me Tob! As a first-year Information Technology student at PHINMA COC, I love experimenting with the skills I've picked up so far while continuously learning new ones. Every project is an opportunity to improve and push my limits, and I'm excited to see what I can create. Let's build something amazing together!</p>
+
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-brands fa-codepen"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#friends">
+                        <i class="fa-solid fa-user-group"></i>
+                        <span>Friends</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headpfp">
+                <img src="images/deathobs.jpg" alt="arikkusuz">
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I'm currently diving into different technologies, each one helping me grow as a developer. While I'm still learning some, every step I take brings me closer to mastering them and applying them with confidence.
+            </div>            
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="HyperText Markup Language">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="Cascading Styles Sheet">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/node-logo.webp" alt="Node JavaScript">
+                    <span>Node JS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/java-logo.webp" alt="Java">
+                    <span>Java</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/python-logo.webp" alt="Python">
+                    <span>Python</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/firebase-logo.webp" alt="Firebase">
+                    <span>Firebase</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="friends" class="friends-section">
+            <h2>Friends</h2>
+            <div class="text">
+                Learning is a journey, and having friends by your side makes all the difference. We've shared challenges, learned from each other, and with every step, we've grown stronger, celebrating how far we've come together.
+            </div>
+            
+            <div class="cells">
+                
+                <div class="cell">
+                    <a href="https://www.facebook.com/aljan.fierrie" target="_blank" rel="noopener noreferrer">Aljan Fierrie Taroc</a>
+                </div>
+
+                <div class="cell">
+                    <a href="https://www.facebook.com/alex.john.tulen.2024" target="_blank" rel="noopener noreferrer">Alex John Tulen</a>
+                </div>
+
+                <div class="cell">
+                    <a href="https://www.facebook.com/kentz.sarang" target="_blank" rel="noopener noreferrer">Kent Sarang</a>
+                </div>
+
+                <div class="cell">
+                    <a href="https://www.facebook.com/medwin.maandig.7" target="_blank" rel="noopener noreferrer">Medwin Maandig</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>📩 Get in Touch</h2>
+        
+            <div class="group">
+                <div class="text">
+                    <p>
+                        Feel free to reach out! Whether you have a project in mind, want to collaborate, or just want to say hello, I'm always happy to connect.
+                        Drop your message below, and I'll get back to you as soon as I can!
+                    </p>
+                </div>
+        
+                <form action="https://formspree.io/f/xjkvnvnv" method="POST">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." cols="30" rows="5" required></textarea>
+        
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
